@@ -686,3 +686,29 @@ a {
     padding-right: 2rem;
   }
 }
+
+/* Features Block */
+
+.block-features__content {
+  gap: 2rem;
+}
+.block-features .block__header {
+  padding-bottom: 1rem;
+}
+.block-features .block {
+  padding-top: 1rem;
+}
+.block-features__image {
+  width: 100%;
+}
+.block-features .grid {
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .block__header {
+    text-align: center;
+  }
+  .block-features__content:nth-of-type(even) .list {
+    order: 2;
+  }
+}
